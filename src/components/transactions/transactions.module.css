@@ -1,0 +1,37 @@
+.section{
+    margin: 20px auto 0;
+    padding: 10px;
+    width: 800px;
+    border: 1px solid gray;
+    border-radius: 30px;
+    background-color: antiquewhite;
+    -webkit-box-shadow: 8px 8px 11px -1px #555555; 
+    box-shadow: 8px 8px 11px -1px #555555;
+}
+.transactionHistory{
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 10px;
+    /* border: 1px grey solid; */
+}
+
+.head{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px grey solid;
+    background-color: rgb(133, 152, 236);
+    font-size: 35px;
+    font-weight: 700;
+    
+}
+.body{
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px grey solid;
+    font-size: 25px;
+    background-color: rgb(223, 243, 169);
+    padding: 0 10px;
+}
+.type::first-letter{
+    text-transform: uppercase;
+}
